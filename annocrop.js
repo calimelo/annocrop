@@ -29,6 +29,7 @@ for (let i = 0; i < images.length; i++) {
   });
   // Loop through all the annotations
   for (let j = 0; j < imageAnnotations.length; j++) {
+    console.log(j + '/' + imageAnnotations.length);
     let annotation = imageAnnotations[j];
     let annotationName = annotation.name[0];
     let annotationBndbox = annotation.bndbox[0];
