@@ -1,0 +1,15 @@
+{
+  "name": "annocrop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "annocrop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.16.2",
+    "xml2js": "^0.4.23"
+  }
+}
